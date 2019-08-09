@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Title } from './styles';
 
 import api from '../../services/api';
 
-import { Title } from './styles';
 import logo from '../../assets/logo.svg';
 
 export default function Login({ history }) {
